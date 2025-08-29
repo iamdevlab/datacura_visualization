@@ -1,7 +1,8 @@
 """
 AutoVisualizer with logging, error handling, domain rules, and export support.
 """
-
+import matplotlib
+matplotlib.use('Agg')
 import os
 import logging
 import pandas as pd
